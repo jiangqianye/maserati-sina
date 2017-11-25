@@ -1,0 +1,30 @@
+﻿.formImg{
+    background:url(../img/index/Maserati_Ghibli-MY18_GranLusso-GranSport_range.jpg);
+    background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    margin:auto;
+    width:100%;
+    height:500px;
+}
+.formImg2{
+    background: rgba(255,255,255,0.6);
+}
+/*pc设备*/
+@media screen and (min-width: 992px){
+    .form-horizontal .form-group {
+        margin-top:4%;
+    }
+}
+/*pad设备*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .form-horizontal .form-group {
+        margin-top:10.2%;
+    }
+}
+/*phone设备*/
+@media screen and (max-width: 767px){
+    .form-horizontal .form-group {
+        margin-top:12.5%;
+    }
+}
+

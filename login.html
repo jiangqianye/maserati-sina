@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Maserati-登录</title>
+  <link rel="icon" href="img/favicon.ico">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/media.css"/>
+  <link rel="stylesheet" href="css/footer.css"/>
+  <link rel="stylesheet" href="css/login.css"/>
+  <link rel="stylesheet" href="css/base.css"/>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <style>
+
+  </style>
+</head>
+<body>
+<!--navbar start-->
+<div class="header">
+  <div class="loading">
+    <img src="img/loading.gif" alt="加载中..." >
+  </div>
+</div>
+<!--navbar end-->
+
+<div class="container formImg" style="margin-top: 150px;">
+  <form id="form-login"  class="form-horizontal formImg2">  <!--div.container-->
+    <div class="form-group">      <!--div.row-->
+      <div class="col-md-offset-2 col-sm-1">
+        <label class="control-label" for="uname" >用户名</label>
+      </div>
+      <div class=" col-sm-5 col-md-3">
+        <input type="text" id="uname" name="uname" class="form-control" />
+      </div>
+      <div class="col-sm-4">
+        <span class="help-block">用户名可以包含数字，字母 6~8位</span>
+      </div>
+     <div id="showResult" style="margin:auto"></div>
+    </div>
+    <div class="form-group">  <!--行 密码-->
+      <div class="col-md-offset-2 col-sm-1">
+        <label class="control-label"  for="upwd3" id="upwd">密码</label>
+      </div>
+      <div class="col-sm-5 col-md-3">
+        <input type="password" name="upwd" id="upwd3" class="form-control"/>
+      </div>
+      <div class="col-sm-4">
+        <span class="help-block">密码可以包含数字，字母 6~8位</span>
+        <div id="showResult2" style="margin:auto"></div>
+      </div>
+    </div>
+    <div class="form-group"> <!--行-->
+      <div class="col-sm-8 col-sm-offset-4">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="ck_rmbUser"/>七天之内免密登录
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group"> <!--行-->
+      <div class="col-sm-8 col-sm-offset-4">
+        <input class="btn btn-danger" type="button" value="重填"/>
+        <input class="btn btn-success"  type="button" value="登录" id="bt-login"/>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!--底部-->
+
+<footer style="margin-top: 60px" data-regionid="footer" id="maserati_footer">
+  <div class="footer-line-first">
+    <div class="footer-element footer-line-search footer-left">
+      <form action="https://www.maserati.com/maserati/cn/zh/search">
+        <input placeholder="站内搜索" class="footer-search-box form-inline-input" name="q">
+        <input value="搜索" class="cta-submit" type="submit">
+      </form>
+    </div>
+    <ul class="footer-element footer-line-social footer-right">
+      <li class="social-icons">
+        <a data-linktracking="cta:bottom-nav:social-share:wechat" href="https://www.maserati.com/maserati/cn/zh/others/maserati-wechat" target="_blank" title="wechat" class="icon footer-icon footer-wechat"></a>
+        <a data-linktracking="cta:bottom-nav:social-share:sinaweibo" href="http://e.weibo.com/maseratiworld" target="_blank" title="sinaweibo" class="icon footer-icon footer-sinaweibo"></a>
+        <a data-linktracking="cta:bottom-nav:social-share:youku" href="http://i.youku.com/i/UMzQxMTgzNTI0?spm=a2h0k.8191405.0.0" target="_blank" title="youku" class="icon footer-icon footer-youku"></a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-line-second">
+    <ul class="footer-element footer-line-links footer-left">
+      <li><a href="http://media.maserati.com/" class=" " target="">媒体</a></li>
+      <li><a href="https://www.maserati.com/maserati/cn/zh/maserati-contact-us" class=" " target="">联系我们</a></li>
+      <li><a href="https://www.maserati.com/maserati/cn/zh/maserati-bluetooth" class=" " target="">蓝牙</a></li>
+      <li><a class="standard country-selector-open" href="#">选择国家</a></li>
+    </ul>
+    <ul class="footer-element footer-line-legal footer-right">
+      <li>© Maserati 2016</li>
+      <li><a href="https://www.maserati.com/maserati/cn/zh/others/maserati-others-legal-notes" class=" " target="">Legal</a></li>
+      <li><a href="https://www.maserati.com/maserati/cn/zh/others/maserati-others-cookie-policy" class=" " target="">Cookie</a></li>
+    </ul>
+  </div>
+</footer>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootlint.js"></script>
+<script src="js/login.js"></script>
+<script src="js/base.js"></script>
+<script>
+ // bootlint.showLintReportForCurrentDocument([]);
+</script>
+</body>
+</html>

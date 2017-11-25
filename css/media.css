@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+/*pc设备*/
+@media screen and (min-width: 992px){
+    .add{background:#f9f9f9;opacity: 0.3;transition:all .2s ease-in 0s;}
+    .box1{
+        width: 95%;
+        color:#ffffff;
+        position: absolute;
+        margin-top: -15%;
+        margin-left: 5%;
+    }
+    .box1 .boxA a{
+        color: #000000;
+        line-height: 2;
+        font-size: 1.2em;
+    }
+    .box1 .boxA{
+        width: 120px;
+        height: 28px;
+        background: #ffffff;
+        text-align: center;
+    }
+    .models-component .icon { display: inline-block; background: transparent url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 208.24776 111.1801' width='208.248' height='111.18'%3E%3Cpath d='M201.25 0l-97.188 97.187L7 .094l-7 7 104.094 104.093.062-.093 6.906-6.907h.032L208.25 7l-7-7z' fill='%23fff'/%3E%3C/svg%3E") no-repeat scroll 50% 50% / 100% auto; width: 25px; height: 17px; vertical-align: middle; margin-left: 5px; }
+    .models-component{
+        cursor: pointer;
+        height: 17px;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 1.5;
+        color: white;
+        position: absolute;
+        display: block;
+        margin-top: -10%;
+        margin-left: 85%;
+    }
+}
+/*pad设备*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .box1{
+        width: 100%;
+        color:#ffffff;
+        position: absolute;
+        bottom: 57%;
+    }
+    .box1 .boxA a{
+        color: #000000;
+        line-height: 2;
+        font-size: 1.2em;
+    }
+    .box1 .boxA{
+        width: 120px;
+        height: 28px;
+        background: #ffffff;
+        text-align: center;
+    }
+}
+/*phone设备*/
+@media screen and (max-width: 767px){
+    .box1 .boxA a{
+        color: #ffffff;
+        line-height: 2;
+        font-size: 1.2em;
+    }
+    .box1 .boxA a:hover{
+        text-decoration: none;
+    }
+    .box1 .boxA{
+        width: 120px;
+        height: 28px;
+        background: #132B4A;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+/*第三行开始*/
+/*pc设备*/
+@media screen and (min-width: 992px){
+    .box13{
+        width: 360px;
+        height: 214px;
+        color:#ffffff;
+        position: absolute;
+    }
+    .box131{
+        margin-top:-35%;
+        right: 5%;
+    }
+    .box132{
+        margin-top: -45%;
+        left: 4%;
+    }
+    .box133{
+        margin-top: -62%
+    }
+    .box134{
+        margin-top: -51.5%
+    }
+    .box13 .boxA3 a{
+        color: #000000;
+        line-height: 2;
+        font-size: 1.2em;
+    }
+    .box13 .boxA3{
+        width: 120px;
+        height: 28px;
+        background: #ffffff;
+        text-align: center;
+    }
+
+}
+/*phone设备*/
+@media screen and (max-width: 991px){
+    .box13{
+        width: 100%;
+        padding: 45px;
+    }
+    .box13 .boxA3 a{
+        color: #ffffff;
+        line-height: 2;
+        font-size: 1.2em;
+    }
+    .box13 .boxA3{
+        width: 120px;
+        height: 28px;
+        background: #132B4A;
+        text-align: center;
+    }
+}

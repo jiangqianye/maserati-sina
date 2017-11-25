@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+/*pc设备*/
+@media screen and (min-width: 992px){
+    .add{background:#f9f9f9;opacity: 0.3;transition:all .7s ease-in 0s;}
+    .imgNews{height: 500px;}
+
+}
+/*pad设备*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .imgNews{height: 400px;}
+
+}
+/*phone设备*/
+@media screen and (max-width: 767px){
+    .imgNews{height: 400px;}
+
+}
+
+

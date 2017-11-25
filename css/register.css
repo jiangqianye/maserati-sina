@@ -1,0 +1,64 @@
+.panel {
+    /*border: 1px solid #aaa;*/
+    border-radius: 2px;
+    /*box-shadow: 0 0 5px #aaa;*/
+    min-height: 100px;
+    padding: 1.2em .6em;
+    width:auto;
+    height:auto;
+    /*border:1px solid blue;*/
+    margin-right: 0px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-color:rgba(0,0,0,0.2);
+}
+.login-bgimg { background: rgba(0, 0, 0, 0) url('../img/index/Maserati_Ghibli-MY18_GranLusso-GranSport_range.jpg') no-repeat fixed center top / cover ; }
+
+
+.form-group1 {
+    margin-bottom: 20px;
+}
+.form-group1 > label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 14px;
+}
+.form-group1 > input {
+    padding:10px 20px;
+    width:235px;
+    margin-top: 12px;
+    border-radius: 2px;
+}
+.form-group1 > span {
+    width: 270px;
+    color: #fff;
+    padding: 4px;
+    border-radius: 2px;;
+}
+.msg-default {
+    background-color: #999;
+}
+.msg-error {
+    background-color: #d00;
+}
+.msg-success {
+    background-color: #0d0;
+}
+.hidden {
+    display: none;
+}
+.true{
+    position:relative;
+    top:5px;
+}
+@media screen and (max-width: 767px){
+    .form-group1 > span {
+        width: 270px;
+        color: #fff;
+        padding: 4px;
+        border-radius: 2px;
+        margin-left: 98px;
+    }
+}
